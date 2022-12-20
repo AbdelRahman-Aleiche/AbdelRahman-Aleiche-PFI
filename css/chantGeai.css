@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital,wght@1,700&family=Poppins:wght@300&family=Russo+One&display=swap');
+.main {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.siteIcon {
+    background-image: URL('../images/Favicon.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.content {
+    
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: larger;
+    margin: auto;
+    background-image: linear-gradient(rgb(151, 180, 208), rgb(57, 63, 145));
+    border:4px solid rgb(57, 63, 145);
+}
+
+.title{
+    
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 2em;
+    color: azure;
+}
+
+.musicContainer{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: auto;
+}
+.musiceBox, 
+.musicContainer{
+    height: 16rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background: rgb(170, 170, 170);
+    box-shadow: 0.5rem 0.7rem rgb(202, 205, 207);
+    overflow: hidden;
+    margin: 2rem;
+}
+.musiceBox, 
+.musicContainer,
+.imageMusic{
+    height: 100%;
+    width: 25%;
+}
+.musiceBox, 
+.musicContainer,
+.imageMusic img{
+    height: 100%;
+    width: 95%;
+}
+.musiceBox, 
+.musicContainer,
+.music{
+    width: 75%;
+}
+.musiceBox, 
+.musicContainer,
+.music audio{
+    width: 95%;
+    outline: none;
+}
+@media screen and (max-width:800px) {
+    .musiceBox, 
+    .musicContainer,
+    .imageMusic img{
+        height: 100%;
+        width: 100%;
+    }
+    .musiceBox, 
+    .musicContainer,
+    .imageMusic{
+        height: 100%;
+        width: 87%;
+    }
+     audio{
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.main {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.siteIcon {
+    background-image: URL('../images/Favicon.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.content {
+    border:4px solid rgb(57, 63, 145);
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Black Ops One', cursive;
+    font-size: larger;
+    background-image: linear-gradient(rgb(151, 180, 208), rgb(57, 63, 145));
+    
+    
+}
+.equipe{
+    text-align: center;
+}
+
+.colonne {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.carte {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    margin: 8px;
+}
+  
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+  
+.container {
+    padding: 0 16px;
+    background-color: white;
+}
+  
+.container::after, .rangee::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+}
+  
+.button  {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+
+}
+.contact{
+    text-decoration: none;
+    color: azure;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+  
+.button:hover {
+    background-color: #555;
+}
+  
+@media screen and (max-width: 800px){
+    .colonne {
+        width: 100%;
+        display: block;
+
+    }
+}
